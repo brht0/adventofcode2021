@@ -65,11 +65,9 @@ def part2():
 			r = abs(dx) # == abs(dy)
 			dx //= r
 			dy //= r
-
 			for i in range(r+1):
 				x = x1 + dx * i
 				y = y1 + dy * i
-				
 				key = (x, y)
 				if key in dct:
 					dct[key] += 1
