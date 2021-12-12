@@ -3,3 +3,7 @@ out
 *.out
 *.txt
 *.exe
+.vs/
+obj/
+bin/
+*.csproj
